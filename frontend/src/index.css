@@ -1,0 +1,9 @@
+body{
+  width: 528px;
+  position: relative;
+  scrollbar-width: 0;
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
