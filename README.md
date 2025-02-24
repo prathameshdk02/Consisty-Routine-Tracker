@@ -16,9 +16,15 @@
    ```sh
    cd Consisty-Routine-Tracker/frontend/
    ```
-3. Install dependencies using npm install.
-4. Build the extension using npm run build script.
-5. Load the extension in Chrome:
+3. Install dependencies using npm.
+   ```sh
+   npm i
+   ```
+5. Build the extension.
+   ```sh
+   npm run build
+   ```
+7. Load the extension in Chrome:
    - Open Chrome and go to `chrome://extensions/`.
    - Enable "Developer mode" in the top-right corner.
    - Click "Load unpacked" and select the `dist` folder inside the project.
